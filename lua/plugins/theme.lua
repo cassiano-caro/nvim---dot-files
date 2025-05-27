@@ -12,7 +12,7 @@ return {
     priority = 1000,
     config = function()
       require("catppuccin").setup({
-        flavour = "macchiato", -- opções: latte, frappe, macchiato, mocha
+        flavour = "mocha", -- opções: latte, frappe, macchiato, mocha
         integrations = {
           cmp = true,
           gitsigns = true,
